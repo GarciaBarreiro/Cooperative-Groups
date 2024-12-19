@@ -9,4 +9,4 @@ Tests for CUDA cooperative groups
 
 ## Compilation and execution on FinisTerrae III
 
-`chmod +x compile_exec.sh && ./compile_exec.sh SIZE` where `SIZE` is the group size.
+`chmod +x compile_exec.sh && ./compile_exec.sh SIZE ITERS` where `SIZE` is the group size and ITERS is the number of iterations the program does. Their default values are 16 and 1000, respectively.
